@@ -1,3 +1,5 @@
+//l'objectif principal de cette classe est de nettoyer le nom entré par l'user en supprimant son titre civil
+
 package pretraiteur.titres;
 public class ExtracteurTitre {
 
