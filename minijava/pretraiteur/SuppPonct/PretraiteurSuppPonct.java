@@ -5,12 +5,7 @@ import pretraiteur.Pretraiteur;
 
 public class PretraiteurSuppPonct implements Pretraiteur {
 
-    /**
-     * Analyse de complexité :
-     * - Temporelle : O(N * L) où N est le nombre de chaînes et L leur longueur moyenne.
-     *   Chaque caractère de chaque chaîne est examiné une fois par replaceAll.
-     * - Spatiale : O(N * L) pour stocker les nouvelles chaînes sans ponctuation.
-     */
+
     public ArrayList<String> pretraiter(ArrayList<String> nomPretraite) {
         ArrayList<String> result = new ArrayList<>();
         for (String s : nomPretraite) {
