@@ -1,0 +1,1840 @@
+monsieur
+madame
+mademoiselle
+mr
+mrs
+ms
+mx
+señor
+señora
+señorita
+senhor
+senhora
+senhorita
+signore
+signora
+signorina
+herr
+frau
+fräulein
+mevrouw
+mijnheer
+السيد
+السيدة
+الآنسة
+господин
+госпожа
+товарищ
+さん
+さま
+くん
+ちゃん
+先生
+女士
+श्री
+श्रीमती
+सुश्री
+bay
+bayan
+bwana
+mama
+bibi
+amir
+sayyid
+sheikh
+الشيخ
+دكتور
+استاذ
+молодой человек
+гражданин
+гражданка
+sama
+dono
+xiansheng
+nvshi
+shriman
+shrimati
+kumari
+pandit
+professor
+profesör
+hocam
+efendim
+serikali
+mwalimu
+ልጅ
+አቶ
+ወይዘሮ
+ወይዘሪት
+général de l armée de terre
+général de corps d armée de terre
+général de division de terre
+général de brigade de terre
+colonel de l armée de terre
+lieutenant colonel de l armée de terre
+commandant de l armée de terre
+capitaine de l armée de terre
+lieutenant de l armée de terre
+sous lieutenant de l armée de terre
+aspirant de l armée de terre
+major de l armée de terre
+adjudant chef de l armée de terre
+adjudant de l armée de terre
+sergent chef de l armée de terre
+sergent de l armée de terre
+caporal chef de l armée de terre
+caporal de l armée de terre
+soldat de première classe de l armée de terre
+soldat de l armée de terre
+général de l armée de l air
+général de corps aérien
+général de division aérienne
+général de brigade aérienne
+colonel de l armée de l air
+lieutenant colonel de l armée de l air
+commandant de l armée de l air
+capitaine de l armée de l air
+lieutenant de l armée de l air
+sous lieutenant de l armée de l air
+aspirant de l armée de l air
+major de l armée de l air
+adjudant chef de l armée de l air
+adjudant de l armée de l air
+sergent chef de l armée de l air
+sergent de l armée de l air
+caporal chef de l armée de l air
+caporal de l armée de l air
+aviateur de première classe
+aviateur
+amiral de la marine
+amiral vice amiral de france
+vice amiral d escadre
+vice amiral
+contre amiral
+capitaine de vaisseau
+capitaine de frégate
+capitaine de corvette
+lieutenant de vaisseau
+enseigne de vaisseau de première classe
+enseigne de vaisseau de deuxième classe
+aspirant de marine
+major de la marine
+maître principal
+premier maître
+maître
+second maître
+quartier maître de première classe
+quartier maître de deuxième classe
+matelot de première classe
+matelot
+général de l espace
+colonel de l espace
+capitaine de l espace
+lieutenant de l espace
+sergent de l espace
+soldat de l espace
+general of the army
+general of the air force
+fleet admiral
+general
+lieutenant general
+major general
+brigadier general
+colonel
+lieutenant colonel
+major
+captain
+first lieutenant
+second lieutenant
+chief warrant officer
+warrant officer
+master sergeant
+sergeant first class
+staff sergeant
+sergeant
+corporal
+specialist
+private first class
+private
+admiral of the navy
+admiral
+vice admiral
+rear admiral
+commodore
+captain of the fleet
+captain
+commander
+lieutenant commander
+lieutenant
+lieutenant junior grade
+ensign
+midshipman
+chief petty officer
+petty officer first class
+petty officer second class
+petty officer third class
+seaman apprentice
+seaman
+air chief marshal
+air marshal
+air vice marshal
+air commodore
+group captain
+wing commander
+squadron leader
+flight lieutenant
+flying officer
+pilot officer
+flight sergeant
+sergeant pilot
+aircraftman
+general del ejército de tierra
+general de división
+general de brigada
+coronel
+teniente coronel
+comandante
+capitán
+teniente
+alférez
+subteniente
+sargento primero
+sargento
+cabo primero
+cabo
+soldado de primera
+soldado
+almirante general
+almirante
+vicealmirante
+contraalmirante
+capitán de navío
+capitán de fragata
+capitán de corbeta
+teniente de navío
+alférez de navío
+guardiamarina
+general del aire
+coronel del aire
+capitán del aire
+teniente del aire
+sargento del aire
+aviador
+generale dell esercito
+generale di corpo d armata
+generale di divisione
+generale di brigata
+colonnello
+tenente colonnello
+maggiore
+capitano
+tenente
+sottotenente
+aspirante
+maresciallo capo
+maresciallo
+sergente maggiore
+sergente
+caporal maggiore
+caporale
+soldato scelto
+soldato
+ammiraglio di squadra
+ammiraglio ispettore
+vice ammiraglio
+contrammiraglio
+capitano di vascello
+capitano di fregata
+capitano di corvetta
+tenente di vascello
+sottotenente di vascello
+guardiamarina
+generale dell aria
+colonnello dell aria
+capitano dell aria
+tenente dell aria
+sergente dell aria
+aviatore
+general do exército
+general de corpo de exército
+general de divisão
+general de brigada
+coronel
+tenente coronel
+major
+capitão
+primeiro tenente
+segundo tenente
+aspirante a oficial
+subtenente
+sargento primeiro
+sargento segundo
+sargento terceiro
+cabo
+soldado
+almirante de esquadra
+vice almirante
+contra almirante
+capitão de mar e guerra
+capitão de fragata
+capitão de corveta
+primeiro tenente da marinha
+segundo tenente da marinha
+guarda marinha
+general da força aérea
+coronel da força aérea
+capitão da força aérea
+tenente da força aérea
+sargento da força aérea
+aviador
+general der infanterie
+general der panzertruppe
+generalleutnant
+generalmajor
+brigadegeneral
+oberst
+oberstleutnant
+major
+hauptmann
+oberleutnant
+leutnant
+stabsfeldwebel
+hauptfeldwebel
+oberfeldwebel
+feldwebel
+unteroffizier
+hauptgefreiter
+obergefreiter
+gefreiter
+soldat
+admiral der flotte
+vizeadmiral
+konteradmiral
+flottillenadmiral
+kapitän zur see
+fregattenkapitän
+korvettenkapitän
+kapitänleutnant
+oberleutnant zur see
+leutnant zur see
+bootsmann
+oberstabsgefreiter der marine
+matrose
+general der luftwaffe
+oberst der luftwaffe
+hauptmann der luftwaffe
+leutnant der luftwaffe
+feldwebel der luftwaffe
+flieger
+generaal van de landmacht
+luitenant generaal
+generaal majoor
+brigade generaal
+kolonel
+luitenant kolonel
+majoor
+kapitein
+eerste luitenant
+tweede luitenant
+vaandrig
+adjudant
+sergeant majoor
+sergeant eerste klasse
+sergeant
+korporaal
+soldaat
+admiraal van de vloot
+vice admiraal
+schout bij nacht
+commandeur
+kapitein ter zee
+luitenant ter zee eerste klasse
+luitenant ter zee tweede klasse
+luitenant ter zee derde klasse
+vaandrig ter zee
+luitenant admiraal
+generaal van de luchtmacht
+kolonel van de luchtmacht
+kapitein van de luchtmacht
+luitenant van de luchtmacht
+sergeant van de luchtmacht
+vlieger
+قائد عام
+فريق أول
+فريق
+لواء
+عميد
+عقيد
+مقدم
+رائد
+نقيب
+ملازم أول
+ملازم
+وكيل ضابط أول
+وكيل ضابط
+رقيب أول
+رقيب
+عريف أول
+عريف
+جندي أول
+جندي
+مشير البحرية
+فريق بحري
+لواء بحري
+عميد بحري
+عقيد بحري
+مقدم بحري
+رائد بحري
+نقيب بحري
+ملازم أول بحري
+ملازم بحري
+رقيب بحري
+جندي بحري
+طيار أول
+طيار
+генерал армии
+генерал полковник
+генерал лейтенант
+генерал майор
+полковник
+подполковник
+майор
+капитан
+старший лейтенант
+лейтенант
+младший лейтенант
+прапорщик
+старшина
+сержант
+младший сержант
+ефрейтор
+рядовой
+адмирал флота
+адмирал
+вице адмирал
+контр адмирал
+капитан первого ранга
+капитан второго ранга
+капитан третьего ранга
+капитан лейтенант
+старший лейтенант флота
+лейтенант флота
+главный старшина
+старшина первой статьи
+старшина второй статьи
+матрос
+генерал воздушной армии
+полковник воздушных сил
+капитан воздушных сил
+лейтенант воздушных сил
+сержант воздушных сил
+рядовой авиации
+陸将
+陸将補
+一等陸佐
+二等陸佐
+三等陸佐
+一等陸尉
+二等陸尉
+三等陸尉
+准陸尉
+陸曹長
+一等陸曹
+二等陸曹
+三等陸曹
+陸士長
+一等陸士
+二等陸士
+海将
+海将補
+一等海佐
+二等海佐
+三等海佐
+一等海尉
+二等海尉
+三等海尉
+准海尉
+海曹長
+一等海曹
+二等海曹
+三等海曹
+海士長
+一等海士
+二等海士
+空将
+空将補
+一等空佐
+二等空佐
+三等空佐
+一等空尉
+二等空尉
+三等空尉
+准空尉
+空曹長
+一等空曹
+二等空曹
+三等空曹
+空士長
+一等空士
+二等空士
+将军
+上将
+中将
+少将
+大校
+上校
+中校
+少校
+上尉
+中尉
+少尉
+专业军士
+军士长
+上士
+中士
+下士
+上等兵
+列兵
+海军上将
+海军中将
+海军少将
+海军大校
+海军上校
+海军中校
+海军少校
+海军上尉
+海军中尉
+海军少尉
+海军军士长
+海军上士
+海军中士
+海军下士
+海军上等兵
+海军列兵
+空军上将
+空军中将
+空军少将
+空军大校
+空军上校
+空军中校
+空军少校
+空军上尉
+空军中尉
+空军少尉
+空军军士长
+空军上士
+空军中士
+空军下士
+空军上等兵
+空军列兵
+जनरल
+लेफ्टिनेंट जनरल
+मेजर जनरल
+ब्रिगेडियर
+कर्नल
+लेफ्टिनेंट कर्नल
+मेजर
+कैप्टन
+लेफ्टिनेंट
+सेकंड लेफ्टिनेंट
+सूबेदार मेजर
+सूबेदार
+नायब सूबेदार
+हवलदार
+नायक
+लांस नायक
+सिपाही
+एडमिरल
+वाइस एडमिरल
+रियर एडमिरल
+कमोडोर
+कैप्टन
+कमांडर
+लेफ्टिनेंट कमांडर
+लेफ्टिनेंट
+सब लेफ्टिनेंट
+पेटी ऑफिसर
+लिडर सीमैन
+सीमैन
+एयर चीफ मार्शल
+एयर मार्शल
+एयर वाइस मार्शल
+एयर कमोडोर
+ग्रुप कैप्टन
+विंग कमांडर
+स्क्वाड्रन लीडर
+फ्लाइट लेफ्टिनेंट
+फ्लाइंग ऑफिसर
+पायलट ऑफिसर
+फ्लाइट सार्जेंट
+सार्जेंट
+कॉर्पोरल
+एयरक्राफ्टमैन
+general
+korgeneral
+tümgeneral
+tuğgeneral
+albay
+yarbay
+binbaşı
+yüzbaşı
+üsteğmen
+teğmen
+asteğmen
+astsubay kıdemli başçavuş
+astsubay başçavuş
+astsubay kıdemli üstçavuş
+astsubay üstçavuş
+astsubay kıdemli çavuş
+astsubay çavuş
+uzman çavuş
+çavuş
+onbaşı
+er
+büyük amiral
+oramiral
+koramiral
+tümamiral
+tuğamiral
+deniz albay
+deniz yarbay
+deniz binbaşı
+deniz yüzbaşı
+deniz üsteğmen
+deniz teğmen
+deniz asteğmen
+astsubay kıdemli başçavuş deniz
+deniz çavuş
+deniz onbaşı
+deniz er
+hava oramiral
+hava koramiral
+hava tümamiral
+hava tuğamiral
+hava albay
+hava yarbay
+hava binbaşı
+hava yüzbaşı
+hava üsteğmen
+hava teğmen
+hava asteğmen
+hava astsubay
+hava çavuş
+hava onbaşı
+hava er
+十
+jenerali wa jeshi
+luteni jenerali
+meja jenerali
+brigedia
+kanali
+luteni kanali
+meja
+kapteni
+luteni
+luteni wa pili
+afisa mteule
+sajini mkuu
+sajini
+koplo
+soldati
+amidali wa majini
+luteni amidali
+amidali wa nyuma
+kamanda wa majini
+kapteni wa majini
+kamanda
+luteni kamanda
+luteni wa majini
+afisa mteule wa majini
+sajini mkuu wa majini
+sajini wa majini
+koplo wa majini
+baharia
+amidali wa anga
+luteni amidali wa anga
+kamanda wa anga
+kapteni wa anga
+luteni wa anga
+sajini wa anga
+rubani
+የሰራዊት ጠቅላይ አዛዥ
+ጠቅላይ ጄኔራል
+ሌተናል ጄኔራል
+ሜጀር ጄኔራል
+ብርጋዴር ጄኔራል
+ኮሎኔል
+ሌተናል ኮሎኔል
+ሻምበል
+ካፕቴን
+ሌተናል
+ሁለተኛ ሌተናል
+ሻዕ
+ባላምባራሽ
+አምባላሽ
+ኮርፖራል
+ጦር
+የባህር ከፍተኛ አዛዥ
+አድሚራል
+ምክትል አድሚራል
+ጀልባ አዛዥ
+ካፕቴን
+ኮማንደር
+ሌተናል ኮማንደር
+ሌተናል
+ኮርፖራል የባህር
+መርከበኛ
+የአየር ከፍተኛ አዛዥ
+ኮሎኔል የአየር
+ካፕቴን የአየር
+ሌተናል የአየር
+አብራሪ
+sa sainteté le pape
+sa sainteté
+son éminence le cardinal
+son excellence l évêque
+monsieur le curé
+père supérieur
+mère supérieure
+frère convers
+sœur converse
+prêtre
+diacre
+archidiacre
+chanoine
+moine
+nonne
+abbé
+abbesse
+prieur
+prieure
+recteur
+chapelain
+aumônier
+missionnaire
+évangéliste
+prédicateur
+théologien
+docteur de l église
+docteur en théologie
+imam
+mollah
+ayatollah
+grand ayatollah
+calife
+grand calife
+grand mufti
+mufti
+cadi
+his holiness the pope
+his eminence cardinal
+his excellency archbishop
+bishop
+monsignor
+father
+sister
+pastor
+reverend
+rector
+vicar
+chaplain
+deacon
+archdeacon
+canon
+monk
+nun
+abbot
+abbess
+prior
+prioress
+missionary
+evangelist
+preacher
+grand imam
+sayyid
+sheikh al islam
+mullah
+su santità
+sua eminenza il cardinale
+sua eccellenza l arcivescovo
+vescovo
+monsignore
+padre
+sorella
+pastore
+reverendo
+rettore
+vicario
+cappellano
+diacono
+arcidiacono
+canonico
+monaco
+suora
+abate
+badessa
+priore
+prior
+missionario
+evangelista
+predicatore
+grande imam
+su alteza santísima
+su eminencia cardenal
+su excelencia arzobispo
+obispo
+sacerdote
+hermano
+hermana
+pastor
+reverendo
+rector
+vicario
+capellán
+diácono
+arcidiácono
+canónigo
+monje
+abadesa
+prior
+misionero
+evangelista
+predicador
+gran imán
+sheij
+almir
+sua santidade
+sua eminência cardeal
+sua excelência arcebispo
+bispo
+padre
+irmã
+pastor
+reverendo
+reitor
+vigário
+capelão
+diácono
+arquidiácono
+cónego
+monge
+freira
+abade
+abadessa
+prior
+prioresa
+missionário
+evangelista
+pregador
+grande imame
+seine heiligkeit der papst
+seine eminenz der kardinal
+seine exzellenz der erzbischof
+bischof
+pfarrer
+pater
+schwester
+pastor
+hochwürden
+rektor
+vikar
+kaplan
+diakon
+erzdiakon
+kanonikus
+mönch
+nonne
+abt
+äbtissin
+prior
+priorin
+missionar
+evangelist
+prediger
+großimam
+sjeike
+zijn heiligheid de paus
+zijne eminentie kardinaal
+zijne excellentie aartsbisschop
+bisschop
+pastoor
+pater
+zuster
+dominee
+rector
+vicaris
+kapelaan
+diaken
+aartsdiaken
+kanunnik
+monnik
+non
+abt
+abdis
+prior
+priorin
+missionaris
+evangelist
+prediker
+groot imam
+قداسة البابا
+قداسته
+صاحب الغبطة الكاردينال
+صاحب النيافة الأسقف
+سيادة المطران
+أب كاهن
+أخت راهبة
+قس
+مطران
+شماس
+راهب
+راهبة
+عميد الأساقفة
+داعية
+مبشر
+إمام أكبر
+شيخ الإسلام
+المفتي العام
+святейший папа
+его святейшество
+его высокопреосвященство кардинал
+его преосвященство архиерей
+епископ
+протоиерей
+игумен
+игуменья
+монах
+монахиня
+дьякон
+протодьякон
+каноник
+проповедник
+миссионер
+пастор
+евангелист
+главный имам
+мулла
+ахунд
+法王
+枢機卿
+大司教
+司教
+執事
+司祭
+修道士
+修道女
+修道院長
+伝道師
+説教者
+牧師
+大師
+アヤトラ
+イマム
+教皇陛下
+他的聖座
+方丈
+喇嘛
+教皇
+红衣主教
+大主教
+主教
+神父
+修女
+牧师
+会吏
+执事
+修士
+修道院长
+传教士
+布道者
+伊玛目
+阿訇
+穆夫提
+大阿亚图拉
+पोप महोदय
+उनकी पवित्रता
+कार्डिनल
+आर्कबिशप
+बिशप
+पादरी
+भिक्षु
+नन
+मठाधीश
+धर्मप्रचारक
+उपदेशक
+मौलवी
+इमाम
+शेख
+काजी
+मुफ्ती
+حضرت پوپ
+ان کی حرمت
+کارڈینل
+آرچ بشپ
+بشپ
+پادری
+راہب
+راہبہ
+ایبٹ
+مبلغ
+مبشر
+امام
+شیخ
+مفتی
+ayatollah
+ruhani
+professeur
+professeur des universités
+professeur émérite
+professeur associé
+professeur assistant
+maître de conférences
+chargé de cours
+directeur de recherche
+directeur d études
+chercheur
+chercheur postdoctoral
+docteur ès lettres
+docteur ès sciences
+docteur en médecine
+docteur en droit
+docteur honoris causa
+philosophe
+savant
+académicien
+membre de l institut
+pédagogue
+agrégé
+certifié
+inspecteur général de l éducation nationale
+recteur d académie
+directeur académique
+enseignant
+instituteur
+maître d école
+professor
+emeritus professor
+associate professor
+assistant professor
+adjunct professor
+lecturer
+reader
+research fellow
+postdoctoral fellow
+doctor of philosophy
+doctor of science
+doctor of medicine
+doctor of laws
+honorary doctor
+fellow of the royal society
+fellow of the academy
+scholar
+academician
+tutor
+instructor
+teacher
+headmaster
+headmistress
+profesor
+profesor emérito
+profesor asociado
+profesor asistente
+profesor titular
+catedrático
+investigador
+doctor en filosofía
+doctor en ciencias
+doctor en medicina
+doctor en derecho
+doctor honoris causa
+académico
+catedrático de universidad
+maestro
+docente
+instructor
+professore
+professore emerito
+professore associato
+professore assistente
+ricercatore
+dottore di ricerca
+dottore in lettere
+dottore in scienze
+dottore in medicina
+dottore in legge
+dottore honoris causa
+accademico
+maestro
+insegnante
+professor catedrático
+professor emérito
+professor associado
+professor auxiliar
+professor convidado
+investigador
+doutor em filosofia
+doutor em ciências
+doutor em medicina
+doutor em direito
+doutor honoris causa
+académico
+mestre
+docente
+professor
+professor emeritus
+ausserplanmäßiger professor
+honorarprofessor
+lehrbeauftragter
+doktor der philosophie
+doktor der wissenschaften
+doktor der medizin
+doktor der rechte
+akademischer rat
+hochschullehrer
+dozent
+forscher
+postdoktorand
+akademiemitglied
+professor aan de universiteit
+emeritus hoogleraar
+universitair hoofddocent
+universitair docent
+onderzoeker
+postdoctoraal onderzoeker
+doctor in de letteren
+doctor in de wetenschappen
+doctor in de geneeskunde
+doctor in de rechten
+eredoctor
+academicus
+leraar
+docent
+أستاذ
+أستاذ كرسي
+أستاذ محاضر
+أستاذ مساعد
+أستاذ مشارك
+باحث
+دكتوراه في الآداب
+دكتوراه في العلوم
+دكتوراه في الطب
+دكتوراه في القانون
+دكتوراه فخرية
+عضو مجمع علمي
+معلم
+مدرس
+профессор
+профессор эмерит
+декан
+доцент
+старший преподаватель
+преподаватель
+доктор наук
+кандидат наук
+доктор философии
+доктор медицины
+доктор права
+почётный доктор
+академик
+научный сотрудник
+постдок
+учитель
+大学教授
+名誉教授
+准教授
+講師
+助教
+研究員
+博士
+文学博士
+理学博士
+医学博士
+法学博士
+名誉博士
+院士
+教師
+导师
+教授
+名誉教授
+副教授
+讲师
+研究员
+博士后
+博士
+文科博士
+理科博士
+医学博士
+法学博士
+荣誉博士
+院士
+教师
+导师
+प्रोफेसर
+एमेरिटस प्रोफेसर
+एसोसिएट प्रोफेसर
+सहायक प्रोफेसर
+लेक्चरर
+शोधकर्ता
+पोस्टडॉक्टोरल
+डॉक्टर ऑफ फिलॉसफी
+डॉक्टर ऑफ साइंस
+डॉक्टर ऑफ मेडिसिन
+डॉक्टर ऑफ लॉ
+मानद डॉक्टर
+शिक्षाविद
+शिक्षक
+अध्यापक
+profesör
+ordinaryüs profesör
+doçent
+yardımcı doçent
+araştırma görevlisi
+doktor öğretim üyesi
+felsefe doktoru
+bilim doktoru
+tıp doktoru
+hukuk doktoru
+fahri doktor
+akademisyen
+öğretmen
+müderris
+profesa
+profesa mstaafu
+profesa msaidizi
+mkufunzi
+mtafiti
+daktari wa falsafa
+daktari wa sayansi
+daktari wa tibia
+daktari wa sheria
+daktari wa heshima
+mwanachuoni
+mwalimu
+professor
+ኢሜሪተስ ፕሮፌሰር
+ተባባሪ ፕሮፌሰር
+ረዳት ፕሮፌሰር
+ሌክቸረር
+ተመራማሪ
+የዶክትሬት ተመራማሪ
+የፍልስፍና ዶክተር
+የሳይንስ ዶክተር
+የሕክምና ዶክተር
+የሕግ ዶክተር
+ክቡር ዶክተር
+ምሁር
+አስተማሪ
+akademiker
+akademiker
+herr professor
+frau professor
+doktor ingenieur
+doktor medizin
+doktor rer nat
+doktor rer pol
+doktor theologie
+doktor juris
+magister artium
+diplom kaufmann
+diplom volkswirt
+diplom ingenieur
+staatsexamen
+bachelor of arts
+bachelor of science
+bachelor of engineering
+bachelor of law
+bachelor of medicine
+master of arts
+master of science
+master of engineering
+master of law
+master of medicine
+master of business administration
+doctor of philosophy
+doctor of education
+doctor of psychology
+doctor of social work
+doctor of nursing practice
+doctor of physical therapy
+doctor of public health
+doctor of dental surgery
+doctor of veterinary medicine
+doctor of pharmacy
+doctor of theology
+doctor of divinity
+doctor of canon law
+doctor of oriental studies
+doctor of music
+doctor of fine arts
+doctor of archaeology
+doctor of economics
+doctor of business administration
+doctor of public administration
+doctor of international relations
+doctor of political science
+doctor of sociology
+doctor of anthropology
+doctor of geography
+doctor of history
+doctor of linguistics
+doctor of literature
+doctor of philology
+doctor of philosophy in physics
+doctor of philosophy in chemistry
+doctor of philosophy in biology
+doctor of philosophy in mathematics
+doctor of philosophy in computer science
+doctor of philosophy in astronomy
+doctor of philosophy in geology
+doctor of philosophy in statistics
+doctor of philosophy in economics
+doctor of philosophy in psychology
+doctor of philosophy in sociology
+doctor of philosophy in political science
+doctor of philosophy in law
+doctor of philosophy in theology
+doctor of philosophy in medicine
+doctor of philosophy in engineering
+doctor of science in physics
+doctor of science in chemistry
+doctor of science in biology
+doctor of science in mathematics
+doctor of science in computer science
+doctor of science in astronomy
+doctor of science in geology
+doctor of engineering in civil engineering
+doctor of engineering in mechanical engineering
+doctor of engineering in electrical engineering
+doctor of engineering in chemical engineering
+doctor of engineering in aerospace engineering
+doctor of engineering in biomedical engineering
+doctor of engineering in environmental engineering
+doctor of engineering in materials engineering
+doctor of engineering in nuclear engineering
+doctor of engineering in petroleum engineering
+doctor of engineering in software engineering
+professor of physics
+professor of chemistry
+professor of biology
+professor of mathematics
+professor of computer science
+professor of astronomy
+professor of geology
+professor of statistics
+professor of economics
+professor of psychology
+professor of sociology
+professor of political science
+professor of law
+professor of medicine
+professor of engineering
+professor of philosophy
+professor of history
+professor of geography
+professor of linguistics
+professor of literature
+professor of anthropology
+professor of archaeology
+professor of education
+professor of business administration
+professor of public health
+professor of nursing
+professor of pharmacy
+professor of dentistry
+professor of veterinary medicine
+professor of theology
+professor of divinity
+professor of fine arts
+professor of music
+professor of theatre
+professor of film
+professor of journalism
+professor of communication
+professor of library science
+professor of information technology
+professor of data science
+professor of artificial intelligence
+professor of robotics
+professor of cybersecurity
+professor of bioinformatics
+professor of nanotechnology
+professor of renewable energy
+professor of climate science
+professor of environmental science
+professor of marine biology
+professor of neuroscience
+professor of genetics
+professor of biochemistry
+professor of molecular biology
+professor of biophysics
+professor of pharmacology
+professor of toxicology
+professor of immunology
+professor of virology
+professor of bacteriology
+professor of mycology
+professor of parasitology
+professor of entomology
+professor of zoology
+professor of botany
+professor of ecology
+professor of evolutionary biology
+professor of paleontology
+professor of mineralogy
+professor of seismology
+professor of volcanology
+professor of oceanography
+professor of meteorology
+professor of climatology
+professor of glaciology
+professor of hydrology
+professor of limnology
+professor of ornithology
+professor of herpetology
+professor of ichthyology
+professor of mammalogy
+professor of primatology
+professor of epidemiology
+professor of biostatistics
+professor of health policy
+professor of healthcare management
+professor of medical ethics
+professor of bioethics
+professor of clinical research
+professor of translational medicine
+professor of regenerative medicine
+professor of stem cell biology
+professor of cancer biology
+professor of cardiovascular medicine
+professor of neurology
+professor of psychiatry
+professor of radiology
+professor of anesthesiology
+professor of surgery
+professor of pediatrics
+professor of obstetrics and gynecology
+professor of orthopedics
+professor of ophthalmology
+professor of dermatology
+professor of urology
+professor of nephrology
+professor of endocrinology
+professor of rheumatology
+professor of gastroenterology
+professor of pulmonology
+professor of hematology
+professor of oncology
+professor of palliative medicine
+professor of forensic medicine
+professor of sports medicine
+professor of occupational medicine
+professor of aerospace medicine
+professor of tropical medicine
+professor of global health
+professor of community medicine
+professor of family medicine
+professor of internal medicine
+professor of emergency medicine
+professor of critical care medicine
+professor of infectious diseases
+professor of allergy and immunology
+professor of geriatric medicine
+professor of adolescent medicine
+professor of neonatal medicine
+professor of perinatal medicine
+professor of reproductive medicine
+professor of sexual health
+professor of addiction medicine
+professor of pain medicine
+professor of rehabilitation medicine
+professor of physical medicine
+assistant professor of physics
+assistant professor of chemistry
+assistant professor of biology
+assistant professor of mathematics
+assistant professor of computer science
+associate professor of physics
+associate professor of chemistry
+associate professor of biology
+associate professor of mathematics
+associate professor of computer science
+adjunct professor of physics
+adjunct professor of chemistry
+adjunct professor of biology
+adjunct professor of mathematics
+adjunct professor of computer science
+visiting professor of physics
+visiting professor of chemistry
+visiting professor of biology
+visiting professor of mathematics
+visiting professor of computer science
+emeritus professor of physics
+emeritus professor of chemistry
+emeritus professor of biology
+emeritus professor of mathematics
+emeritus professor of computer science
+research professor of physics
+research professor of chemistry
+research professor of biology
+research professor of mathematics
+research professor of computer science
+clinical professor of medicine
+clinical professor of surgery
+clinical professor of pediatrics
+clinical professor of psychiatry
+clinical professor of neurology
+clinical professor of radiology
+teaching professor of physics
+teaching professor of chemistry
+teaching professor of biology
+teaching professor of mathematics
+teaching professor of computer science
+professeur de physique
+professeur de chimie
+professeur de biologie
+professeur de mathématiques
+professeur d informatique
+professeur des écoles
+professeur certifié
+professeur agrégé
+docteur en droit
+docteur en économie
+docteur en sociologie
+docteur en histoire
+docteur en géographie
+docteur en langues
+docteur en linguistique
+docteur en philosophie
+docteur en psychologie
+docteur en sciences politiques
+docteur en anthropologie
+docteur en archéologie
+docteur en art
+docteur en musique
+docteur en théologie
+docteur en pharmacie
+docteur en odontologie
+docteur en vétérinaire
+docteur en kinésithérapie
+docteur en ergothérapie
+docteur en orthophonie
+docteur en diététique
+docteur en audiologie
+docteur en optométrie
+docteur en podologie
+docteur en chiropractie
+docteur en ostéopathie
+docteur en acupuncture
+docteur en homéopathie
+docteur en naturopathie
+docteur en phytothérapie
+docteur en aromathérapie
+docteur en hydrothérapie
+docteur en balnéothérapie
+docteur en thalassothérapie
+docteur en cryothérapie
+docteur en photothérapie
+docteur en électrothérapie
+docteur en magnétothérapie
+docteur en sonothérapie
+docteur en chromothérapie
+docteur en gérontologie
+docteur en pédiatrie
+docteur en gériatrie
+docteur en néonatologie
+docteur en obstétrique
+docteur en gynécologie
+docteur en andrologie
+docteur en urologie
+docteur en néphrologie
+docteur en hépatologie
+docteur en gastroentérologie
+docteur en proctologie
+docteur en coloproctologie
+docteur en hépato gastroentérologie
+docteur en cardiologie
+docteur en angiologie
+docteur en phlébologie
+docteur en lymphologie
+docteur en pneumologie
+docteur en rhumatologie
+docteur en orthopédie
+docteur en traumatologie
+docteur en chirurgie orthopédique
+docteur en chirurgie plastique
+docteur en chirurgie maxillo faciale
+docteur en chirurgie thoracique
+docteur en chirurgie cardiaque
+docteur en chirurgie vasculaire
+docteur en chirurgie digestive
+docteur en chirurgie viscérale
+docteur en chirurgie cancéreuse
+docteur en neurochirurgie
+docteur en chirurgie pédiatrique
+docteur en chirurgie obstétrique
+docteur en chirurgie gynécologique
+docteur en chirurgie urologique
+docteur en chirurgie rénale
+docteur en chirurgie hépatique
+docteur en chirurgie pancréatique
+docteur en chirurgie biliaire
+docteur en chirurgie splénique
+docteur en chirurgie surrénalienne
+docteur en chirurgie thyroïdienne
+docteur en chirurgie parathyroïdienne
+docteur en chirurgie des glandes salivaires
+docteur en chirurgie de la face
+docteur en chirurgie du cou
+docteur en chirurgie de la main
+docteur en chirurgie du pied
+docteur en chirurgie de l épaule
+docteur en chirurgie du genou
+docteur en chirurgie de la hanche
+docteur en chirurgie de la colonne vertébrale
+docteur en chirurgie du rachis
+docteur en chirurgie de la moelle épinière
+docteur en chirurgie des nerfs périphériques
+docteur en chirurgie des muscles
+docteur en chirurgie des tendons
+docteur en chirurgie des ligaments
+docteur en chirurgie des articulations
+docteur en chirurgie des os
+docteur en chirurgie des cartilages
+docteur en chirurgie des méninges
+docteur en chirurgie de l oreille
+docteur en chirurgie du nez
+docteur en chirurgie de la gorge
+docteur en oto rhino laryngologie
+docteur en ophtalmologie
+docteur en strabologie
+docteur en glaucome
+docteur en cataracte
+docteur en rétinologie
+docteur en vitréologie
+docteur en maculopathie
+docteur en neuro ophtalmologie
+docteur en immuno ophtalmologie
+docteur en onco ophtalmologie
+docteur en pédiatrie ophtalmique
+docteur en ophtalmologie vétérinaire
+docteur en dermatologie
+docteur en vénéréologie
+docteur en dermato allergologie
+docteur en dermato cancérologie
+docteur en dermato pédiatrique
+docteur en dermato génétique
+docteur en dermato pathologie
+docteur en trichologie
+docteur en onychologie
+docteur en stomatologie
+docteur en parodontologie
+docteur en endodontie
+docteur en orthodontie
+docteur en prothèse dentaire
+docteur en implantologie dentaire
+docteur en odontologie pédiatrique
+docteur en odontologie gériatrique
+docteur en médecine dentaire du sommeil
+docteur en dentisterie esthétique
+docteur en dentisterie restauratrice
+docteur en dentisterie préventive
+docteur en dentisterie communautaire
+docteur en dentisterie légale
+docteur en dentisterie vétérinaire
+docteur en pharmacie clinique
+docteur en pharmacie hospitalière
+docteur en pharmacie industrielle
+docteur en pharmacie galénique
+docteur en pharmacie biologique
+docteur en pharmacologie
+docteur en pharmacognosie
+docteur en chimie pharmaceutique
+docteur en physique pharmaceutique
+docteur en microbiologie pharmaceutique
+docteur en parasitologie pharmaceutique
+docteur en toxicologie pharmaceutique
+docteur en épidémiologie pharmaceutique
+docteur en pharmacoéconomie
+docteur en pharmacovigilance
+docteur en hématologie biologique
+docteur en biochimie clinique
+docteur en biologie médicale
+docteur en biologie moléculaire médicale
+docteur en génétique médicale
+docteur en immunologie médicale
+docteur en virologie médicale
+docteur en bactériologie médicale
+docteur en mycologie médicale
+docteur en parasitologie médicale
+docteur en anatomie pathologique
+docteur en cytologie pathologique
+docteur en histologie pathologique
+docteur en médecine légale
+docteur en droit médical
+docteur en éthique médicale
+docteur en santé publique
+docteur en santé environnementale
+docteur en santé au travail
+docteur en santé mondiale
+docteur en épidémiologie
+docteur en biostatistique
+docteur en bioinformatique médicale
+docteur en imagerie médicale
+docteur en radiologie diagnostique
+docteur en radiothérapie
+docteur en médecine nucléaire
+docteur en échographie
+docteur en doppler
+docteur en scanner
+docteur en ir m
+docteur en mammographie
+docteur en densitométrie
+docteur en électromyographie
+docteur en électroencéphalographie
+docteur en électrocardiographie
+docteur en holter
+docteur en endoscopie
+docteur en coloscopie
+docteur en gastroscopie
+docteur en bronchoscopie
+docteur en cystoscopie
+docteur en arthroscopie
+docteur en laparoscopie
+docteur en thoracoscopie
+docteur en médiastinoscopie
+docteur en péritonéoscopie
+docteur en cardioscopie
+docteur en angiographie
+docteur en lymphographie
+docteur en urographie
+docteur en hystérographie
+docteur en salpingographie
+docteur en cholangiographie
+docteur en pancréatographie
+docteur en sialographie
+docteur en dacryocystographie
+docteur en fistulographie
+docteur en sinuscopie
+docteur en otoscopie
+docteur en rhinoscopie
+docteur en laryngoscopie
+docteur en pharyngoscopie
+docteur en trachéoscopie
+docteur en œsophagoscopie
+docteur en entéroscopie
+docteur en rectoscopie
+docteur en anuscopie
+docteur en proctoscopie
+docteur en sigmoïdoscopie
+docteur en duodénoscopie
+docteur en écho endoscopie
+docteur en élastographie
+docteur en fibroscopie
+docteur en vidéocapsule endoscopique
+docteur en tomographie
+docteur en tomographie par émission de positons
+docteur en tomographie par émission monophotonique
+docteur en résonance magnétique
+docteur en spectroscopie par résonance magnétique
+docteur en imagerie du tenseur de diffusion
+docteur en tractographie
+docteur en magnétoencéphalographie
+docteur en magnétocardiographie
+docteur en optoacoustique
+docteur en échographie de contraste
+docteur en élastographie par impulsion
+docteur en hémodynamique
+docteur en pléthysmographie
+docteur en rhéographie
+docteur en pléthysmographie par impédance
+docteur en oscillométrie
+docteur en sphygmomanométrie
+docteur en oxymétrie pulsée
+docteur en capnographie
+docteur en spirométrie
+docteur en pléthysmographie corporelle
+docteur en provocation bronchique
+docteur en test de marche
+docteur en ergométrie
+docteur en électrophorèse
+docteur en chromatographie
+docteur en spectrométrie de masse
+docteur en cytométrie en flux
+docteur en fluorescence
+docteur en luminescence
+docteur en phosphorescence
+docteur en spectrophotométrie
+docteur en néphélométrie
+docteur en turbidimétrie
+docteur en polarimétrie
+docteur en réfractométrie
+docteur en osmométrie
+docteur en viscosimétrie
+docteur en tensiométrie
+docteur en potentiométrie
+docteur en ampérométrie
+docteur en coulométrie
+docteur en voltampérométrie
+docteur en conductimétrie
+docteur en diélectrométrie
+docteur en thermométrie
+docteur en calorimétrie
+docteur en enthalpimétrie
+docteur en cryométrie
+docteur en ebulliométrie
+docteur en osmométrie
+docteur en densimétrie
+docteur en pycnométrie
+docteur en aérométrie
+docteur en barométrie
+docteur en manométrie
+docteur en vacuométrie
+docteur en débitmétrie
+docteur en vélocimétrie
+docteur en accélérométrie
+docteur en gyrométrie
+docteur en inclinométrie
+docteur en nivellement
+docteur en topométrie
+docteur en cartométrie
+docteur en photogrammétrie
+docteur en télédétection
+docteur en géodésie
+docteur en gravimétrie
+docteur en magnétométrie
+docteur en électromagnétométrie
+docteur en radioastronomie
+docteur en astrométrie
+docteur en astrophotographie
+docteur en spectroscopie astronomique
+docteur en héliosismologie
+docteur en astérosismologie
+docteur en exoplanétologie
+docteur en astrochimie
+docteur en cosmologie
+docteur en physique cosmique
+docteur en rayons cosmiques
+docteur en neutrinos
+docteur en ondes gravitationnelles
+docteur en matière noire
+docteur en énergie noire
+docteur en particules élémentaires
+docteur en haute énergie
+docteur en basses énergies
+docteur en physique atomique
+docteur en physique moléculaire
+docteur en physique des plasmas
+docteur en physique de la matière condensée
+docteur en physique du solide
+docteur en physique des liquides
+docteur en physique des gaz
+docteur en physique des polymères
+docteur en physique des surfaces
+docteur en physique des interfaces
+docteur en physique des nanomatériaux
+docteur en physique des semi conducteurs
+docteur en physique des supraconducteurs
+docteur en physique mésoscopique
+docteur en physique quantique
+docteur en physique théorique
+docteur en physique mathématique
