@@ -1,3 +1,14 @@
+//'l'objectif principal de cette classe est la recherche et la détécte du titre civil a partir du nom entré par l'user
+
+
+//Plusieurs lignes de ce code sont suggerees par IA (après une très grande discussion) elle sert a : 
+//Charge titres.txt en mémoire dans un HashSet
+//Normalise les titres (minuscules, apostrophes , espace)
+//extraireTitre(phrase) : détecte le titre dans une phrase (Longest Match First)
+//contient(titre) : vérifie si un titre existe dans le dictionnaire
+//getNbMotsTitre(phrase) : retourne le nombre de mots du titre détecté
+//getTailleDictionnaire() / getMaxMotsParTitre() : infos sur le dictionnairee
+
 package pretraiteur.titres;
 import java.io.*;
 import java.util.*;
@@ -68,6 +79,7 @@ public class DictTitres {
     }
 
     /**
+    
      * Algorithme LONGEST MATCH FIRST — version optimisée.
      *
      * Optimisations :
