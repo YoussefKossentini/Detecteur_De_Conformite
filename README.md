@@ -3,6 +3,7 @@
 Le **Détecteur de Conformité** est une application Java conçue pour résoudre les problèmes de qualité de données lors de la manipulation de noms. Dans un monde où les données peuvent être saisies avec des fautes de frappe, des oublis d'accents ou des formats inconsistants, ce moteur permet de retrouver l'identité correcte d'une personne à partir d'une recherche approximative (FUZZY search). 
 
 ## Structure du projet 
+```
 .
 ├── Moteur.java                  # c'est le moteur de recherche lui même
 ├── Name.java                    # Structure de donnéess pour les noms
@@ -24,7 +25,8 @@ Le **Détecteur de Conformité** est une application Java conçue pour résoudre
 ├── Generateur/                  # (Candidat, ScanComplet...)
 ├── Resultat.java                # Gestion des résultats de recherche
 └── Selectionneur/               # (Top, Percentage...)
-
+```
+---
 ## Fonctionnement
 Le système repose sur trois piliers fondamentaux :
 - **Pipeline de Prétraitement** : Une série de filtres qui transforment une chaîne brute en une forme canonique "propre".
