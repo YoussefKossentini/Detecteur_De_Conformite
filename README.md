@@ -67,6 +67,8 @@ Tous les modules de prétraitement héritent de l'interface `Pretraiteur`. Cela 
 
 ** Tests et Performance **
 Chaque module inclut une méthode `main` permettant de :
+```
 i.  Vérifier le bon fonctionnement fonctionnel.
 ii.  Mesurer la performance avec un **test de complexité**.
 iii.  Valider que le traitement est bien de complexité **O(n)**, garantissant **une exécution rapide même sur de gros volumes de données**.
+```
