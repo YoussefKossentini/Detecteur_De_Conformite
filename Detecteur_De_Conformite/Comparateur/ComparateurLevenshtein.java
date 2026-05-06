@@ -22,6 +22,7 @@ public class ComparateurLevenshtein implements Comparateur {
         }
         return dp[m][n];
     }
+//la logique ici est la suivante: Tailles égales obligatoire, puis chaque token à la même position doit avoir une distance ≤ 2
 
     public boolean comparer(ArrayList<String> s1, ArrayList<String> s2) {
         if (s1.size() == s2.size()) { 
