@@ -1,5 +1,5 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public interface Selectionneur {
-    public abstract ArrayList<Resultat> selectionner(ArrayList<Resultat> res);
+    List<Resultat> selectionner(List<Resultat> resultats);
 }
