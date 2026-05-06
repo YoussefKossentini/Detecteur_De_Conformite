@@ -6,25 +6,69 @@ Le **Détecteur de Conformité** est une application Java conçue pour résoudre
 ```
 .
 ├── Moteur.java                  # c'est le moteur de recherche lui même
-├── Name.java                    # Structure de donnéess pour les noms
+│                                #    orchestre les 3 piliers (prétraitement,
+│                                #     comparaison, sélection)
+├── Name.java                    # Structure de données pour les noms
+│                                #    encapsule id + tokens du nom brut
 ├── DemoMoteur.java              # Démo principale
+│                                #    scénario de recherche avec requête "sale"
+├── Resultat.java                # Gestion des résultats de recherche
+│                                #    DTO score + candidat matché
+├── GestionListe.java            # Gestionnaire de base de données de noms
+│                                #    singleton pour fusionner les listes
+├── README.md                    # Présentation du projet
 │
 ├── pretraiteur/                 # Modules de nettoyage
 │   ├── Pretraiteur.java         # Interface de base
+│   │                            # CONTRAT pour la chaîne de traitement
 │   ├── MinMaj/                  # Conversion MAJ_min 
+│   │   └── PretraiteurMinMaj.java
+│   │                            
 │   ├── SuppAccent/              # Suppression accents
+│   │   └── PretraiteurSuppAccent.java
+│   │                            
 │   ├── SuppPonct/               # Suppression ponctuation
+│   │   └── PretraiteurSuppPonct.java
+│   │                            
 │   ├── titres/                  # Gestion des titres (M., Dr, etc.)
-│   └── decomposer.java    
+│   │   ├── DictTitres.java
+│   │   │                        
+│   │   ├── ExtracteurTitre.java
+│   │   │                        
+│   │   ├── DemoDetecteurTitres.java
+│   │   │                        
+│   │   └── titres.txt
+│   │                            # liste complète des titres (civil, militaire...)
+│   └── decomposer.java          # Décomposition de noms
+│                                
+│
 ├── Comparateur/                 # Algorithmes de similarité
 │   ├── Comparateur.java         # Interface de base
+│   │                            # CONTRAT comparer(ArrayList, ArrayList)
 │   ├── ComparateurLevenshtein.java
+│   │                           
 │   ├── ComparateurJaroWinkler.java
+│   │                           
 │   └── ComparateurSoundex.java
+│                                
 │
 ├── Generateur/                  # (Candidat, ScanComplet...)
-├── Resultat.java                # Gestion des résultats de recherche
+│   ├── GenerateurCandidat.java
+│   │                            # interface pour optimiser les paires à comparer
+│   ├── GenerateurScanComplet.java
+│   │                            
+│   ├── GenerateurIndexDouble.java
+│   │                            
+│   └── GenrateurIndexTokens.java
+│                                
+│
 └── Selectionneur/               # (Top, Percentage...)
+    ├── Selectionneur.java         # Interface de base
+    │                                # CONTRAT selectionner(ArrayList<Resultat>)
+    ├── SelectionneurTop.java
+    │                                # trie par score décroissant
+    └── SelectionneurPercentage.java
+                                     # filtre par % du meilleur score
 ```
 ---
 ## Fonctionnement
