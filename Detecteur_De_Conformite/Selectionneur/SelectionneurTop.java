@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class SelectionneurTop implements Selectionneur {
 
@@ -8,14 +10,23 @@ public class SelectionneurTop implements Selectionneur {
         this.topN = topN;
     }
 
-    public List<Resultat> selectionner(List<Resultat> resultats) {
+    
+    public ArrayList<Resultat> selectionner(ArrayList<Resultat> res) {
 
-        resultats.sort((r1, r2) -> Double.compare(r2.getScore(), r1.getScore()));
+        
+        Collections.sort(res, new Comparator<Resultat>() {
+            
+            public int compare(Resultat r1, Resultat r2) {
+                return Double.compare(r2.getScore(), r1.getScore());
+            }
+        });
 
-        if (resultats.size() <= topN) {
-            return resultats;
+        ArrayList<Resultat> selection = new ArrayList<>();
+
+        for (int i = 0; i < res.size() && i < topN; i++) {
+            selection.add(res.get(i));
         }
 
-        return resultats.subList(0, topN);
+        return selection;
     }
 }

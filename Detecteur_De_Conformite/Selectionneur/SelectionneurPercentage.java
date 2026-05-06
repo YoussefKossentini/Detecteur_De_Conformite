@@ -1,18 +1,18 @@
-import java.util.*;
+import java.util.ArrayList;
 
 public class SelectionneurPourcentage implements Selectionneur {
 
-    private double seuil; 
+    private double seuil;
 
     public SelectionneurPourcentage(double seuil) {
         this.seuil = seuil;
     }
 
-    public List<Resultat> selectionner(List<Resultat> resultats) {
+    public ArrayList<Resultat> selectionner(ArrayList<Resultat> res) {
 
-        List<Resultat> selection = new ArrayList<>();
+        ArrayList<Resultat> selection = new ArrayList<>();
 
-        for (Resultat r : resultats) {
+        for (Resultat r : res) {
             if (r.getScore() >= seuil) {
                 selection.add(r);
             }
