@@ -1,3 +1,5 @@
+package Detecteur_De_Conformite;
+
 public class Resultat {
     private double score;
     private Name candidat;

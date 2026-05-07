@@ -1,3 +1,5 @@
+package Detecteur_De_Conformite.Comparateur;
+
 import java.util.ArrayList;
 
 public class ComparateurLevenshtein implements Comparateur {
@@ -22,7 +24,11 @@ public class ComparateurLevenshtein implements Comparateur {
         return dp[m][n];
     }
 
+    @Override
     public double comparer(ArrayList<String> s1, ArrayList<String> s2) {
+        if (s1 == null || s2 == null || s1.isEmpty() || s2.isEmpty())
+            return 0.0;
+
         double total = 0.0;
 
         for (String token1 : s1) {
@@ -30,6 +36,7 @@ public class ComparateurLevenshtein implements Comparateur {
 
             for (String token2 : s2) {
                 int longueurMax = Math.max(token1.length(), token2.length());
+                if (longueurMax == 0) continue;
 
                 // Plus la distance est petite, plus les chaînes sont proches.
                 // On divise par la longueur max pour normaliser la distance entre 0 et 1.
@@ -44,11 +51,10 @@ public class ComparateurLevenshtein implements Comparateur {
         }
         return total / s1.size();
     }
-//MAIN DE TEST
+
     public static void main(String[] args) {
         ComparateurLevenshtein comparateur = new ComparateurLevenshtein();
 
-        // Test 1 : Noms similaires
         ArrayList<String> nom1 = new ArrayList<>();
         nom1.add("Jean");
         nom1.add("Dupont");
@@ -59,7 +65,6 @@ public class ComparateurLevenshtein implements Comparateur {
 
         System.out.println("Test 1 (similaires) : " + comparateur.comparer(nom1, nom2));
 
-        // Test 2 : Noms très différents
         ArrayList<String> nom3 = new ArrayList<>();
         nom3.add("Pierre");
         nom3.add("Martin");
@@ -70,7 +75,6 @@ public class ComparateurLevenshtein implements Comparateur {
 
         System.out.println("Test 2 (différents) : " + comparateur.comparer(nom3, nom4));
 
-        // Test 3 : Tailles différentes
         ArrayList<String> nom5 = new ArrayList<>();
         nom5.add("Jean");
 

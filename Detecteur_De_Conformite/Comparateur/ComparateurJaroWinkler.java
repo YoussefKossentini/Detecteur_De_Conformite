@@ -1,3 +1,5 @@
+package Detecteur_De_Conformite.Comparateur;
+
 import java.util.ArrayList;
 
 public class ComparateurJaroWinkler implements Comparateur {
@@ -48,8 +50,7 @@ public class ComparateurJaroWinkler implements Comparateur {
         return jaro + prefixe * 0.1 * (1 - jaro);
     }
 
-    /* Logique : pour chaque token de s1, on cherche son meilleur 'jumeau' dans s2 via Jaro-Winkler.
-       On calcule la moyenne de ces meilleurs scores, et on la retourne (entre 0 et 1). */
+    @Override
     public double comparer(ArrayList<String> s1, ArrayList<String> s2) {
         if (s1 == null || s2 == null || s1.isEmpty() || s2.isEmpty())
             return 0.0;

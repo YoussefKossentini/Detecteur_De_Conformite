@@ -1,5 +1,8 @@
-import java.util.List;
+package Detecteur_De_Conformite.Selectionneur;
+
+import java.util.ArrayList;
+import Detecteur_De_Conformite.Resultat;
 
 public interface Selectionneur {
-    List<Resultat> selectionner(List<Resultat> resultats);
+    ArrayList<Resultat> selectionner(ArrayList<Resultat> resultats);
 }

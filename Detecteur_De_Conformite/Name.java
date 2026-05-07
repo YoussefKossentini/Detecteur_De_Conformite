@@ -1,13 +1,15 @@
+package Detecteur_De_Conformite;
+
 public class Name {
     private String id;
     private String[] nomBrute;
 
-    Name(String id, String[] nomBrute) {
+    public Name(String id, String[] nomBrute) {
         this.id = id;
         this.nomBrute = nomBrute;
     }
 
-    String[] getNomBrute() {
+    public String[] getNomBrute() {
         return this.nomBrute;
     }
 

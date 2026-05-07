@@ -1,9 +1,11 @@
+package Detecteur_De_Conformite;
+
 import java.util.ArrayList;
 import java.util.Arrays;
-import Comparateur.*;
-import pretraiteur.Pretraiteur;
-import pretraiteur.MinMaj.PretraiteurMinMaj;
-import Pretraiteur.SuppPonct.PretraiteurSuppPonct;
+import Detecteur_De_Conformite.Comparateur.*;
+import Detecteur_De_Conformite.Pretraiteur.*;
+import Detecteur_De_Conformite.Generateur.*;
+import Detecteur_De_Conformite.Selectionneur.*;
 
 public class DemoMoteur {
     public static void main(String[] args) {
@@ -14,30 +16,35 @@ public class DemoMoteur {
         // 1. Création des composants
         Pretraiteur[] chainePretraitement = {
             new PretraiteurMinMaj(),
-            new PretraiteurSuppPonct()
+            new PretraiteurSuppPonct(),
+            new PretraiteurSuppAccent()
         };
         
         Comparateur comp = new ComparateurLevenshtein();
+        GenerateurCandidat gen = new GenerateurScanComplet();
+        Selectionneur sel = new SelectionneurTop(3);
         
-        // On crée le moteur (avec un générateur et sélectionneur null pour cette démo simplifiée)
-        Moteur moteur = new Moteur(null, chainePretraitement, comp, null);
+        Moteur moteur = new Moteur(gen, chainePretraitement, comp, sel);
 
         // 2. Création d'une base de données de noms (Candidats)
-        ArrayList<Name> baseDeDonnees = new ArrayList<>();
-        baseDeDonnees.add(new Name("ID1", new String[]{"Jean", "Dupont"}));
-        baseDeDonnees.add(new Name("ID2", new String[]{"Marie", "Curie"}));
-        baseDeDonnees.add(new Name("ID3", new String[]{"Ahmed", "Kassab"}));
-        baseDeDonnees.add(new Name("ID4", new String[]{"Pierre", "Martin"}));
+        GestionListe gestionnaire = GestionListe.getInstance();
+        gestionnaire.addName(new Name("ID1", new String[]{"Jean", "Dupont"}));
+        gestionnaire.addName(new Name("ID2", new String[]{"Marie", "Curie"}));
+        gestionnaire.addName(new Name("ID3", new String[]{"Ahmed", "Kassab"}));
+        gestionnaire.addName(new Name("ID4", new String[]{"Pierre", "Martin"}));
+        gestionnaire.addName(new Name("ID5", new String[]{"Ahméd", "Kassab"})); // Variante avec accent
+
+        ArrayList<Name> baseDeDonnees = gestionnaire.getAllListe();
 
         // 3. Test de recherche
-        // On simule une entrée utilisateur "sale" (majuscules, ponctuation)
+        // On simule une entrée utilisateur "sale" (majuscules, ponctuation, accents)
         Name requete = new Name("REQ", new String[]{"ahmed,", "KASSAB!"});
         
         System.out.println("  REQUÊTE UTILISATEUR : \"ahmed, KASSAB!\"");
         System.out.println("  ──────────────────────────────────────");
 
         long t0 = System.nanoTime();
-        ArrayList<Name> resultats = moteur.rechercher(baseDeDonnees, requete);
+        ArrayList<Resultat> resultats = moteur.rechercher(baseDeDonnees, requete);
         long dt = System.nanoTime() - t0;
 
         // 4. Affichage des résultats
@@ -45,8 +52,10 @@ public class DemoMoteur {
             System.out.println("  ✗ Aucun résultat trouvé.");
         } else {
             System.out.println("  ✓ Résultats trouvés :");
-            for (Name n : resultats) {
-                System.out.println("    - [" + n.getId() + "] " + String.join(" ", n.getNomBrute()));
+            for (Resultat r : resultats) {
+                Name n = r.getCandidat();
+                System.out.printf("    - [%s] %-20s (Score: %.4f)%n",
+                    n.getId(), String.join(" ", n.getNomBrute()), r.getScore());
             }
         }
 

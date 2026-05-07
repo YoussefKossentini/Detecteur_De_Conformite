@@ -1,4 +1,5 @@
-package pretraiteur.titres;
+package Detecteur_De_Conformite.Pretraiteur.titres;
+
 public class DemoDetecteurTitres {
 
     // ── Exemples : un nom complet par longueur de titre (1 → 8 mots) ───────
@@ -23,7 +24,7 @@ public class DemoDetecteurTitres {
     };
 
     public static void main(String[] args) {
-        String fichier = args.length > 0 ? args[0] : "titres.txt";
+        String fichier = args.length > 0 ? args[0] : "Detecteur_De_Conformite/Pretraiteur/titres/titres.txt";
 
         long t0 = System.nanoTime();
         DictTitres dict = new DictTitres(fichier);
