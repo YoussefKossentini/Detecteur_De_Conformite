@@ -4,72 +4,86 @@ Le **Détecteur de Conformité** est une application Java conçue pour résoudre
 
 ## Structure du projet 
 ```
-.
-├── Moteur.java                  # c'est le moteur de recherche lui même
-│                                #    orchestre les 3 piliers (prétraitement,
-│                                #     comparaison, sélection)
-├── Name.java                    # Structure de données pour les noms
-│                                #    encapsule id + tokens du nom brut
-├── DemoMoteur.java              # Démo principale
-│                                #    scénario de recherche avec requête "sale"
-├── Resultat.java                # Gestion des résultats de recherche
-│                                #    DTO score + candidat matché
-├── GestionListe.java            # Gestionnaire de base de données de noms
-│                                #    singleton pour fusionner les listes
-├── README.md                    # Présentation du projet
+Detecteur_De_Conformite/
 │
-├── pretraiteur/                 # Modules de nettoyage
-│   ├── Pretraiteur.java         # Interface de base
-│   │                            # CONTRAT pour la chaîne de traitement
-│   ├── MinMaj/                  # Conversion MAJ_min 
-│   │   └── PretraiteurMinMaj.java
-│   │                            
-│   ├── SuppAccent/              # Suppression accents
-│   │   └── PretraiteurSuppAccent.java
-│   │                            
-│   ├── SuppPonct/               # Suppression ponctuation
-│   │   └── PretraiteurSuppPonct.java
-│   │                            
-│   ├── titres/                  # Gestion des titres (M., Dr, etc.)
-│   │   ├── DictTitres.java
-│   │   │                        
-│   │   ├── ExtracteurTitre.java
-│   │   │                        
-│   │   ├── DemoDetecteurTitres.java
-│   │   │                        
-│   │   └── titres.txt
-│   │                            # liste complète des titres (civil, militaire...)
-│   └── decomposer.java          # Décomposition de noms
-│                                
+├── .gitignore
+├── README.md
 │
-├── Comparateur/                 # Algorithmes de similarité
-│   ├── Comparateur.java         # Interface de base
-│   │                            # CONTRAT comparer(ArrayList, ArrayList)
-│   ├── ComparateurLevenshtein.java
-│   │                           
-│   ├── ComparateurJaroWinkler.java
-│   │                           
-│   └── ComparateurSoundex.java
-│                                
+├── compile.sh
+├── compile.bat
+├── run.sh
+├── run.bat
 │
-├── Generateur/                  # (Candidat, ScanComplet...)
+├── TestCapacite.java
+├── TestPerf.java
+│
+├── lib/
+│   └── icu4j-78.3.jar
+│
+├── model/
+│   ├── Name.java                    # Structure de données pour les noms
+│   │                                #    encapsule id + tokens du nom brut
+│   ├── Alerte.java
+│   └── Resultat.java                # Gestion des résultats de recherche
+│                                    #    DTO score + candidat matché
+│
+├── core/
+│   ├── Moteur.java                  # c'est le moteur de recherche lui même
+│   │                                #    orchestre les 3 piliers (prétraitement,
+│   │                                #     comparaison, sélection)
+│   ├── KycContext.java
+│   ├── CsvManager.java
+│   ├── ExcelManager.java
+│   ├── Exporteur.java
+│   ├── ExporteurCSV.java
+│   └── BenchmarkKYC.java
+│
+├── pretraiteur/                     # Modules de nettoyage
+│   ├── Pretraiteur.java             # Interface de base
+│   │                                # CONTRAT pour la chaîne de traitement
+│   ├── PretraiteurMinMaj.java
+│   ├── PretraiteurSuppAccent.java
+│   ├── PretraiteurSuppPonct.java
+│   ├── PretraiteurTransliteration.java
+│   └── titres/                      # Gestion des titres (M., Dr, etc.)
+│       ├── DictTitres.java
+│       ├── ExtracteurTitre.java
+│       └── titres.txt
+│                                    # liste complète des titres (civil, militaire...)
+│
+├── generateur/                      # (Candidat, ScanComplet...)
 │   ├── GenerateurCandidat.java
-│   │                            # interface pour optimiser les paires à comparer
+│   │                                # interface pour optimiser les paires à comparer
 │   ├── GenerateurScanComplet.java
-│   │                            
 │   ├── GenerateurIndexDouble.java
-│   │                            
-│   └── GenrateurIndexTokens.java
-│                                
+│   └── GenerateurIndexTokens.java
 │
-└── Selectionneur/               # (Top, Percentage...)
-    ├── Selectionneur.java         # Interface de base
-    │                                # CONTRAT selectionner(ArrayList<Resultat>)
-    ├── SelectionneurTop.java
-    │                                # trie par score décroissant
-    └── SelectionneurPercentage.java
-                                     # filtre par % du meilleur score
+├── comparateur/                     # Algorithmes de similarité
+│   ├── Comparateur.java             # Interface de base
+│   │                                # CONTRAT comparer(ArrayList, ArrayList)
+│   ├── ComparateurLevenshtein.java
+│   ├── ComparateurJaroWinkler.java
+│   ├── ComparateurSoundex.java
+│   └── ComparateurComposite.java
+│
+├── selectionneur/                   # (Top, Percentage...)
+│   ├── Selectionneur.java           # Interface de base
+│   │                                # CONTRAT selectionner(ArrayList<Resultat>)
+│   ├── SelectionneurTop.java
+│   │                                # trie par score décroissant
+│   └── SelectionneurPercentage.java
+│                                    # filtre par % du meilleur score
+│
+├── ui/
+│   └── MenuKYC.java
+│
+└── test/
+    ├── TestKYC.java
+    ├── test_clients.csv
+    ├── test_user_list.csv
+    └── resultats_test.csv
 ```
+ 
 ---
 ## Fonctionnement
 Le système repose sur trois piliers fondamentaux :
