@@ -220,6 +220,54 @@ Agrège plusieurs comparateurs selon deux modes : MAXIMUM (prend le meilleur sco
 ***Utilité :***
 Combine les forces de chaque algorithme. Mode MAXIMUM = permissif (tolérance zéro), mode MOYENNE = conservateur (réduction des faux positifs) 
 
-### Pilier 3 : Séléctionneurs 
-//Dammak séléctionneurs
+### Pilier 3 : Séléctionneurs
+
+Le sélectionneur est l’étape finale du moteur de conformité.
+Après que les comparateurs aient calculé les scores de similarité entre les candidats générés et les entrées recherchées, le rôle du sélectionneur est de trier, filtrer et conserver uniquement les correspondances les plus pertinentes.
+
+Son objectif est d’éviter d’afficher un grand nombre de résultats peu utiles et de ne retourner que les candidats ayant la meilleure probabilité de correspondance.
+
+***Architecture :**
+
+Tous les sélectionneurs implémentent l’interface Selectionneur, qui expose une unique méthode selectionner(resultats). Cela permet au Moteur de changer dynamiquement de stratégie de filtrage selon le comportement souhaité (sélection stricte, affichage large, limitation du nombre de résultats, etc.).
+
+***1. selectionneurTop****
+
+***Fonctionnement :*** 
+
+Trie tous les objets Resultat par score décroissant.
+Conserve uniquement les N meilleurs résultats selon une limite configurable.
+Utilise généralement Collections.sort() avec un comparateur basé sur le score.
+Complexité : O(n log n) à cause du tri des résultats.
+
+****Utilité : ****
+
+Réduit considérablement le bruit dans les résultats.
+Permet d’afficher rapidement les correspondances les plus probables.
+Très utile dans les interfaces KYC où l’analyste souhaite voir immédiatement les meilleurs matchs potentiels.
+
+***2. SelectionneurPourcentage****
+
+***Fonctionnement :*** 
+
+Recherche d’abord le meilleur score obtenu parmi tous les candidats.
+Calcule ensuite un seuil relatif basé sur un pourcentage configurable.
+Conserve uniquement les résultats dont le score respecte :
+score >= meilleurScore × pourcentage
+Complexité : O(n) — un parcours pour trouver le maximum puis un parcours de filtrage.
+
+****Utilité : ****
+
+Élimine automatiquement les résultats trop éloignés du meilleur match.
+Adapte dynamiquement le filtrage selon la qualité globale des résultats.
+Évite d’afficher des faux positifs peu pertinents.
+
+**Tests et Performance**
+
+Chaque sélectionneur inclut une méthode main permettant de :
+
+i.   Vérifier le bon fonctionnement du tri et du filtrage.
+ii.  Tester différents seuils et tailles de sélection.
+iii. Valider que seuls les résultats les plus pertinents sont conservés,
+     garantissant un bon équilibre entre précision et lisibilité des résultats.
 
