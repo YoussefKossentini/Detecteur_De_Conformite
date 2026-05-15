@@ -182,7 +182,43 @@ Chaque générateur inclut une méthode `main` et une classe de démonstration (
          garantissant un bon équilibre entre rappel et performance sur de gros volumes.
 
 ### Pilier 2 : Comparaison 
-//oussama el fonctionnement mte3 el comparateurs 
+
+-Le comparateur est l'étape qui mesure le degré de ressemblance entre deux noms prétraités. Son but est de produire un score de similarité entre 0.0 (aucune ressemblance) et 1.0 (identique), sur lequel repose la décision de déclencher ou non une alerte.
+
+***Architecture :**
+Tous les modules de comparaison implémentent l'interface Comparateur. Cela permet au Moteur de les utiliser de façon interchangeable, et au ComparateurComposite de les combiner en une chaîne d'évaluation.
+
+***1. ComparateurLevenshtein****
+
+***Fonctionnement :*** 
+Calcule le nombre minimal d'insertions, suppressions ou substitutions pour transformer un mot en l'autre. Score = 1 - (distance / longueur_max).
+
+****Utilité : ****
+Détecte les fautes de frappe et erreurs de transcription (Dupont/Dupond, Mohamed/Muhamed).
+
+*****2. ComparateurJaroWinkler ('ComparateurJaroWinkler')****
+
+***Fonctionnement :**
+Mesure la similarité en valorisant les caractères communs et ajoute un bonus pour le préfixe commun (les premières lettres).
+
+**Utilité :***
+Idéal pour les noms de personnes et les translittérations (Omar/Umar, Hassan/Hasan). Valorise les premières lettres, rarement mal transcrites.
+
+****3. ComparateurSoundex****
+
+***Fonctionnement :***
+Transforme chaque mot en un code phonétique de 4 caractères (une lettre + trois chiffres) basé sur la prononciation anglaise.
+
+***Utilité :***
+Détecte les variantes phonétiques et homophonies (Smith / Smyth, Fischer / Fisher). Très rapide car la comparaison se réduit à une égalité de chaînes. Complémentaire de Levenshtein pour les noms dont la prononciation est stable mais l'orthographe variable.
+
+***4. ComparateurComposite***
+
+***Fonctionnement :***
+Agrège plusieurs comparateurs selon deux modes : MAXIMUM (prend le meilleur score) ou MOYENNE (fait la moyenne).
+
+***Utilité :***
+Combine les forces de chaque algorithme. Mode MAXIMUM = permissif (tolérance zéro), mode MOYENNE = conservateur (réduction des faux positifs) 
 
 ### Pilier 3 : Séléctionneurs 
 //Dammak séléctionneurs
