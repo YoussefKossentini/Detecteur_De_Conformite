@@ -88,6 +88,7 @@ Detecteur_De_Conformite/
 ## Fonctionnement
 Le système repose sur trois piliers fondamentaux :
 - **Pipeline de Prétraitement** : Une série de filtres qui transforment une chaîne brute en une forme canonique "propre".
+- **Génération des candidats** : 
 - **Moteur de Comparaison** : Un ensemble d'algorithmes (Distance de Levenshtein, Jaro-Winkler, Soundex) pour calculer un score de similarité.
 - **Sélectionneur de Résultats** : Un module qui classe et filtre les meilleurs candidats trouvés dans la base de données.
 
@@ -113,9 +114,16 @@ Tous les modules de prétraitement héritent de l'interface `Pretraiteur`. Cela 
 ** 3. Suppression des Accents (`PretraiteurSuppAccent`) **
 *   **Fonctionnement** : Utilise la classe `java.text.Normalizer` pour décomposer les caractères accentués (ex: 'é' devient 'e' + '´') puis supprime les marques diacritiques.
 *   **Utilité** : Permet de comparer des noms sans se soucier des erreurs d'accentuation courantes.
-    
 
-** 4. Gestion des Titres Civils (`ExtracteurTitre` & `DictTitres`)** 
+** 4. Translittération des langues non-latines (`PretraiteurTransliteration`) **
+*   **Fonctionnement** :
+    *   Utilise la bibliothèque **ICU4J** (`icu4j-78.3.jar`) via la classe `com.ibm.icu.text.Transliterator`.
+    *   Applique une chaîne de règles : `"Russian-Latin/BGN; Any-Latin; Latin-ASCII"` — d'abord le cyrillique vers le latin (norme BGN), puis tout autre script non-latin vers le latin, puis les caractères latins restants vers l'ASCII pur.
+    *   Exemple de conversion :   `ДЕМИДОВИЧ` → `DEMIDOVICH` (cyrillique/russe)
+        
+    *   **Utilité** : Permet de détecter des correspondances entre un nom saisi en alphabet latin et le même nom enregistré dans un autre script (arabe, cyrillique, grec, chinois…), cas fréquent dans les listes PEP internationales.
+
+** 5. Gestion des Titres Civils (`ExtracteurTitre` & `DictTitres`)** 
 *   **Fonctionnement** :
     *   `DictTitres` : Charge une liste de titres (M., Mme, Dr, Prof, etc.) depuis un fichier `titres.txt`.
     *   `ExtracteurTitre` : Identifie si un mot est un titre et permet de l'isoler ou de le supprimer du nom complet.
@@ -130,3 +138,13 @@ i.  Vérifier le bon fonctionnement fonctionnel.
 ii.  Mesurer la performance avec un **test de complexité**.
 iii.  Valider que le traitement est bien de complexité **O(n)**, garantissant **une exécution rapide même sur de gros volumes de données**.
 ```
+### Génération des candidats : 
+//KOUSSAY EL FONCTIONNEMENT MTE3 EL GENERATEURS LEHNA 
+
+
+### Pilier 2 : Comparaison 
+//oussama el fonctionnement mte3 el comparateurs 
+
+### Pilier 3 : Séléctionneurs 
+//Dammak séléctionneurs
+
