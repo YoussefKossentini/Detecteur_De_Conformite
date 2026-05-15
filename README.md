@@ -9,12 +9,9 @@ Detecteur_De_Conformite/
 ├── .gitignore
 ├── README.md
 │
-├── compile.sh
-├── compile.bat
 ├── run.sh
-├── run.bat
 │
-├── TestCapacite.java
+├── TestCapacite.java                # Pour les tests
 ├── TestPerf.java
 │
 ├── lib/
@@ -22,15 +19,15 @@ Detecteur_De_Conformite/
 │
 ├── model/
 │   ├── Name.java                    # Structure de données pour les noms
-│   │                                #    encapsule id + tokens du nom brut
+│   │                                # encapsule id + tokens du nom brut
 │   ├── Alerte.java
 │   └── Resultat.java                # Gestion des résultats de recherche
-│                                    #    DTO score + candidat matché
+│                                    # score + candidat matché
 │
 ├── core/
 │   ├── Moteur.java                  # c'est le moteur de recherche lui même
-│   │                                #    orchestre les 3 piliers (prétraitement,
-│   │                                #     comparaison, sélection)
+│   │                                # orchestre les 3 piliers (prétraitement,
+│   │                                # comparaison, sélection)
 │   ├── KycContext.java
 │   ├── CsvManager.java
 │   ├── ExcelManager.java
