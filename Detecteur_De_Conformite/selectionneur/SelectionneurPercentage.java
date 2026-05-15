@@ -7,7 +7,6 @@ public class SelectionneurPercentage implements Selectionneur {
    private double threshold;
 
    public SelectionneurPercentage(double threshold) { this.threshold = threshold; }
-//generee par ia
    public ArrayList<Resultat> selectionner(ArrayList<Resultat> res) {
      ArrayList<Resultat> filtered = new ArrayList<>();
        for (Resultat r : res) if (r.getScore() >= threshold) filtered.add(r);
