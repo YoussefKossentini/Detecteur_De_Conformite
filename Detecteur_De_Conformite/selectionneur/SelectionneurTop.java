@@ -4,7 +4,6 @@ import model.Resultat;
 import model.Name;
 
 public class SelectionneurTop implements Selectionneur {
-//generee par ia
    public ArrayList<Resultat> selectionner(ArrayList<Resultat> res) {
      if (res.isEmpty()) return res;
        ArrayList<Resultat> filtered = new ArrayList<>();
