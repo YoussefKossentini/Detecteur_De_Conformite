@@ -223,30 +223,30 @@ Combine les forces de chaque algorithme. Mode MAXIMUM = permissif (tolérance z�
 ### Pilier 3 : Séléctionneurs
 
 Le sélectionneur est l’étape finale du moteur de conformité.
-Après que les comparateurs aient calculé les scores de similarité entre les candidats générés et les entrées recherchées, le rôle du sélectionneur est de trier, filtrer et conserver uniquement les correspondances les plus pertinentes.
+Après que les comparateurs aient calculé les scores de similarité entre les candidats générés et les entrées recherchées, le rôle du sélectionneur est de filtrer et conserver uniquement les correspondances les plus pertinentes.
 
-Son objectif est d’éviter d’afficher un grand nombre de résultats peu utiles et de ne retourner que les candidats ayant la meilleure probabilité de correspondance.
+Son objectif est d’éviter d’afficher un grand nombre de résultats peu utiles et de ne retourner que les candidats présentant les scores les plus significatifs.
 
 ***Architecture :**
 
-Tous les sélectionneurs implémentent l’interface Selectionneur, qui expose une unique méthode selectionner(resultats). Cela permet au Moteur de changer dynamiquement de stratégie de filtrage selon le comportement souhaité (sélection stricte, affichage large, limitation du nombre de résultats, etc.).
+Tous les sélectionneurs implémentent l’interface Selectionneur, qui expose une unique méthode selectionner(resultats). Cela permet au Moteur de changer dynamiquement de stratégie de sélection selon le comportement souhaité.
 
-***1. selectionneurTop****
+1. Sélection du Meilleur Score (SelectionneurTop)
 
 ***Fonctionnement :*** 
 
-Trie tous les objets Resultat par score décroissant.
-Conserve uniquement les N meilleurs résultats selon une limite configurable.
-Utilise généralement Collections.sort() avec un comparateur basé sur le score.
-Complexité : O(n log n) à cause du tri des résultats.
+Parcourt l’ensemble des objets Resultat.
+Recherche le score maximal obtenu parmi tous les candidats.
+Conserve uniquement les résultats dont le score est égal au meilleur score trouvé.
+Complexité : O(n) — un parcours pour trouver le maximum puis un parcours de filtrage.
 
-****Utilité : ****
+***Utilité :***
 
-Réduit considérablement le bruit dans les résultats.
-Permet d’afficher rapidement les correspondances les plus probables.
-Très utile dans les interfaces KYC où l’analyste souhaite voir immédiatement les meilleurs matchs potentiels.
+Permet de conserver uniquement les meilleures correspondances possibles.
+Élimine immédiatement les candidats moins pertinents.
+Utile dans les scénarios KYC où seuls les matchs les plus forts doivent être analysés.
 
-***2. SelectionneurPourcentage****
+2. Sélection par Pourcentage (SelectionneurPercentage)
 
 ***Fonctionnement :*** 
 
@@ -256,7 +256,7 @@ Conserve uniquement les résultats dont le score respecte :
 score >= meilleurScore × pourcentage
 Complexité : O(n) — un parcours pour trouver le maximum puis un parcours de filtrage.
 
-****Utilité : ****
+***Utilité :***
 
 Élimine automatiquement les résultats trop éloignés du meilleur match.
 Adapte dynamiquement le filtrage selon la qualité globale des résultats.
@@ -266,8 +266,8 @@ Adapte dynamiquement le filtrage selon la qualité globale des résultats.
 
 Chaque sélectionneur inclut une méthode main permettant de :
 
-i.   Vérifier le bon fonctionnement du tri et du filtrage.
-ii.  Tester différents seuils et tailles de sélection.
+i.   Vérifier le bon fonctionnement du filtrage.
+ii.  Tester différents seuils de sélection.
 iii. Valider que seuls les résultats les plus pertinents sont conservés,
-     garantissant un bon équilibre entre précision et lisibilité des résultats.
+     garantissant un bon équilibre entre précision et lisibilité des résultats
 
