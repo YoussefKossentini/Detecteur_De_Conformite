@@ -135,9 +135,51 @@ i.  Vérifier le bon fonctionnement fonctionnel.
 ii.  Mesurer la performance avec un **test de complexité**.
 iii.  Valider que le traitement est bien de complexité **O(n)**, garantissant **une exécution rapide même sur de gros volumes de données**.
 ```
-### Génération des candidats : 
-//KOUSSAY EL FONCTIONNEMENT MTE3 EL GENERATEURS LEHNA 
-
+## Pilier 2 : Génération des Candidats
+ 
+La génération des candidats est l'étape qui détermine **quels enregistrements de la base de données (listeB) méritent d'être comparés** à chaque entrée de la requête (listeA). Son but est d'éviter une comparaison exhaustive coûteuse en ne retenant que les paires "plausibles".
+ 
+**Architecture**
+ 
+Tous les générateurs implémentent l'interface `GenerateurCandidat`, qui expose une unique méthode `genererCandidats(listeA, listeB)`. Cela permet au `Moteur` de **substituer librement** une stratégie par une autre selon le compromis vitesse/rappel souhaité.
+ 
+---
+ 
+**1. Scan Complet (`GenerateurScanComplet`)**
+ 
+*   **Fonctionnement** : Génère le produit cartésien intégral des deux listes — chaque élément de listeA est apparié avec *tous* les éléments de listeB.
+*   **Complexité** : **O(n × m)** — croissance quadratique.
+*   **Utilité** : Sert de **référence de rappel maximal** (aucun candidat n'est omis) et de base de comparaison pour évaluer les stratégies plus rapides. Inadapté à de gros volumes.
+ 
+**2. Index par Nombre de Tokens (`GenerateurIndexTokens`)**
+ 
+*   **Fonctionnement** :
+    *   **Phase d'indexation** : parcourt listeB une seule fois et construit un `Map<Integer, List<Integer>>` qui associe le nombre de tokens d'un nom à la liste de ses indices.
+    *   **Phase de requête** : pour chaque nom de listeA, sonde l'index dans une fenêtre `[nbTokens - nb, nbTokens + nb]` (tolérance configurable `nb`).
+*   **Complexité** : **O(m + n × k)** où k est le nombre de candidats retenus, bien inférieur à m en pratique.
+*   **Utilité** : Élimine rapidement les noms dont le nombre de tokens est trop différent (ex : un prénom seul ne sera pas comparé à un nom composé de quatre tokens).
+ 
+**3. Index Double Tokens × Longueur (`GenerateurIndexDouble`)**
+ 
+*   **Fonctionnement** :
+    *   **Phase d'indexation** (`construireIndex`) : construit un index à deux niveaux `Map<Integer, Map<Integer, List<Integer>>>` — d'abord par nombre de tokens, puis par longueur totale des tokens.
+    *   **Mise en cache** : l'index est conservé en mémoire (`indexCache`) et n'est **recalculé que si listeB change** (comparaison par référence `listeB != derniereListeB`), évitant un recalcul inutile lors d'appels répétés sur la même base.
+    *   **Phase de requête** : pour chaque nom de listeA, sonde l'index dans une double fenêtre :
+        *   tolérance sur le nombre de tokens : [-nbPermisTokens, +nbPermisTokens]
+        *   tolérance sur la longueur totale : [-longPermis, +longPermis]
+*   **Complexité** : **O(m)** pour l'indexation + **O(n × k)** pour la requête, avec k très réduit grâce au double filtre.
+*   **Utilité** : Stratégie la plus sélective — un nom de 10 caractères en 2 tokens ne sera apparié qu'avec des noms de longueur et de structure proches, réduisant drastiquement le nombre de paires transmises au moteur de comparaison.
+ 
+---
+ 
+**Tests et Performance**
+ 
+Chaque générateur inclut une méthode `main` et une classe de démonstration (`DemoIndexDouble`) permettant de :
+ 
+    i.   Vérifier le contenu de l'index construit (tokens → longueur → indices).
+    ii.  Valider que le cache est bien réutilisé (référence identique à derniereListeB).
+    iii. Confirmer que seules les paires respectant les fenêtres de tolérance sont retournées,
+         garantissant un bon équilibre entre rappel et performance sur de gros volumes.
 
 ### Pilier 2 : Comparaison 
 //oussama el fonctionnement mte3 el comparateurs 
